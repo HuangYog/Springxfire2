@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="Springxfire2:war exploded">
+    <output-path>$PROJECT_DIR$/classes/artifacts/Springxfire2_war_exploded</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="Springxfire2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="module" name="lib (2)" module-name="Springxfire2" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="Springxfire2/web/Web" />
+    </root>
+  </artifact>
+</component>

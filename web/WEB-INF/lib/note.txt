@@ -1,0 +1,17 @@
+spring security 3.1.0
+   Core - spring-security-core.jar
+   Web - spring-security-web.jar
+   Config - spring-security-config.jar
+  
+ spring mvc  
+   springframework.web
+   springframework.web.servlet
+ spring  framework3.1.0 
+  springframework.core
+  springframework.beans
+  springframework.context
+  springframework.jdbc
+  org.springframework.asm
+  org.springframework.expression
+  org.springframework.transaction
+  org.springframework.aop

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpringSide:header xmlns:SpringSide="http://service.webservice.plugins.bookstore.springside.org">
+ <SpringSide:AuthenticationToken>
+  <SpringSide:Username>admin</SpringSide:Username>
+  <SpringSide:Password>202cb962ac59075b964b07152d234b70</SpringSide:Password>
+ </SpringSide:AuthenticationToken>
+</SpringSide:header>
+

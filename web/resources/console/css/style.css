@@ -1,0 +1,58 @@
+﻿.room_0 {
+	width: 40px;
+	margin: 0 3px;
+	color: #333;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 4px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	background-color: #fff;
+	border: 1px solid #e1e2e3;
+}
+.room_00 {
+	width: 40px;
+	margin: 0 3px;
+	color: #333;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 4px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	background-color: #FF3300;
+	border: 1px solid #e1e2e3;
+}
+
+.room_1 {
+	width: 40px;
+	margin: 0 3px;
+	color: #333;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 4px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	background-color: #BBFF55;
+	border: 1px solid #e1e2e3;
+}
+
+.room_2 {
+	width: 40px;
+	margin: 0 3px;
+	color: #333;
+	font-size: 12px;
+	height: 24px;
+	line-height: 24px;
+	padding: 0 4px;
+	line-height: 24px;
+	display: inline-block;
+	text-align: center;
+	background-color: #AAAAAA;
+	border: 1px solid #e1e2e3;
+}

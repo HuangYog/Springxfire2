@@ -1,0 +1,100 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+.nav ul{float:left; height:80px;}
+.nav ul li{ width:108px; height:80px; float:left;display:inline;}
+
+.nav ul li a{ color:#575757; line-height:80px; display:block; font-size:14px;background-repeat:no-repeat; background-image:url(../images/top_icon.png); text-align:center; font-family:微软雅黑; position:relative;}
+
+.nav ul li a span{ line-height:40px; display:block; padding-top:40px; font-size:14px;}
+
+.nav ul li a:hover{ font-weight:700; color:#67b7da; background-color:#fff;-webkit-box-shadow:0px 2px 5px #999 inset;-moz-box-shadow:0px 2px 5px #999 inset;box-shadow:0px 2px 5px #999 inset;}
+.nav ul li a.current{ position:relative;font-weight:700; color:#67b7da; line-height:80px; background-color:#fff;-webkit-box-shadow:0px 2px 5px #999 inset;-moz-box-shadow:0px 2px 5px #999 inset;box-shadow:0px 2px 5px #999 inset;}
+
+.nav ul li.a{ margin-left:0;}
+
+.nav ul li.num01 a{ background-position:center 0px; z-index:8;}
+.nav ul li.num02 a{ background-position:center -80px; z-index:7;}
+.nav ul li.num03 a{ background-position:center -160px; z-index:6;}
+.nav ul li.num04 a{ background-position:center -240px; z-index:5;}
+.nav ul li.num05 a{ background-position:center -320px; z-index:4;}
+
+
+.nav ul li.num01 a:hover{ background-position:center -400px; z-index:9;}
+.nav ul li.num02 a:hover{ background-position:center -480px; z-index:9;}
+.nav ul li.num03 a:hover{ background-position:center -560px; z-index:9;}
+.nav ul li.num04 a:hover{ background-position:center -640px; z-index:9;}
+.nav ul li.num05 a:hover{ background-position:center -720px; z-index:9;}
+
+.nav ul li.num01 a.current{ background-position:center -400px; z-index:10;}
+.nav ul li.num02 a.current{ background-position:center -480px; z-index:10;}
+.nav ul li.num03 a.current{ background-position:center -560px; z-index:10;}
+.nav ul li.num04 a.current{ background-position:center -640px; z-index:10;}
+.nav ul li.num05 a.current{ background-position:center -720px; z-index:10;}
+
+
+.total_content{position:relative;width:100%;left:50%;margin-left:-50%; height:100%;}
+
+.left_list{ width:210px; background:#228cba; display:block; float:left; z-index:9999}
+.left_list .admin_user{background:#67b7da; height:100px;}
+.left_list .admin_user img{ width:60px; height:60px; box-shadow:0 0 8px #999; border-radius:6px; top:18px; left:8px; position:relative;}
+.left_list .admin_user h4{ width:125px;position:relative; padding-top:16px; float:right;font-size:14px; font-weight:bold; text-align:left; color:#fff; line-height:22px;}
+.left_list .admin_user h4 p{ font-weight:500;}
+.left_list .admin_user h4 p a{color:#105f81}
+.left_list .admin_user h4 p a:hover{color:#b30026}
+.left_list .left_menu{}
+.left_list .left_menu ul{}
+.left_list .left_menu ul li{list-style:none; overflow:hidden;}
+.left_list .left_menu .footer { height:60px; position:relative; text-align:center; margin:0 auto; background:none; box-shadow:none;}
+.left_list .left_menu .footer p{line-height:20px;font-size: 12px;color: #67b7da; }
+.left_list .left_menu ul li.top_menu { position:relative;width:180px;height:50px;line-height: 50px;font-size: 14px;color: #FFF;font-weight: bold;background: #228cba;display: block;cursor: pointer; margin:0 auto; border-radius:5px;}
+.left_list .left_menu ul li.sub_meuu {width: 180px;height: auto;line-height: 50px;	background:#228cba; margin:0 auto; border-radius:5px; }
+.left_list .left_menu ul li.sub_meuu a{color:#fff; line-height:50px; padding-left:60px; font-size:14px;display:block; background:#3a98c1; position:relative; text-align:left; border-bottom:#4fa3c7 1px solid;}
+.left_list .left_menu ul li.sub_meuu a:last-child{ border-bottom:0}
+.left_list .left_menu ul li.top_menu a{color:#fff; line-height:50px; padding-left:60px; font-size:14px;display:block; background-repeat:no-repeat; background-image:url(../images/left_icon.png); position:relative; text-align:left;}
+.left_list .left_menu ul li.top_menu a:hover, .left_list .left_menu ul li.sub_meuu a {transition:all 0.4s ease 0s;}
+.left_list .left_menu ul li.top_menu a:hover,.left_list .left_menu ul li.sub_meuu a:hover{ font-weight:700; color:#fff; background-color:#6db2d0; box-shadow:0 0 8px #999;}
+.left_list .left_menu ul li.top_menu a.current,.left_list .left_menu ul li.sub_meuu a.current{  position:relative;font-weight:700; color:#237294; line-height:50px; background-color:#b0d4e4; box-shadow:0 0 8px #999;}
+
+.left_list .left_menu ul li.top_menu.pic1 a{background-position:left 0px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic2 a{background-position:left -50px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic3 a{background-position:left -100px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic4 a{background-position:left -150px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic5 a{background-position:left -200px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic6 a{background-position:left -250px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic7 a{background-position:left -300px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic8 a{background-position:left -350px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic9 a{background-position:left -400px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic10 a{background-position:left -450px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic11 a{background-position:left -500px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic12 a{background-position:left -550px; z-index:18;}
+.left_list .left_menu ul li.top_menu.pic13 a{background-position:left -600px; z-index:18;}
+
+/*.left_list .left_menu ul li.top_menu.pic1 a:hover{background-position:left -650px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic2 a:hover{background-position:left -700px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic3 a:hover{background-position:left -750px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic4 a:hover{background-position:left -800px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic5 a:hover{background-position:left -850px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic6 a:hover{background-position:left -900px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic7 a:hover{background-position:left -950px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic8 a:hover{background-position:left -1000px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic9 a:hover{background-position:left -1050px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic10 a:hover{background-position:left -1100px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic11 a:hover{background-position:left -1150px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic12 a:hover{background-position:left -1200px; z-index:19;}
+.left_list .left_menu ul li.top_menu.pic13 a:hover{background-position:left -1250px; z-index:19;}
+
+.left_list .left_menu ul li.top_menu.pic1 a.current{background-position:left -650px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic2 a.current{background-position:left -700px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic3 a.current{background-position:left -750px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic4 a.current{background-position:left -800px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic5 a.current{background-position:left -850px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic6 a.current{background-position:left -900px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic7 a.current{background-position:left -950px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic8 a.current{background-position:left -1000px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic9 a.current{background-position:left -1050px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic10 a.current{background-position:left -1100px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic11 a.current{background-position:left -1150px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic12 a.current{background-position:left -1200px; z-index:119;}
+.left_list .left_menu ul li.top_menu.pic13 a.current{background-position:left -1250px; z-index:119;}*/
+
